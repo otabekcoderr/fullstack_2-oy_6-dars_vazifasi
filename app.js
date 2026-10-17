@@ -198,4 +198,5 @@
 // };
 // console.log(forNum(6));
 
+
 //21
