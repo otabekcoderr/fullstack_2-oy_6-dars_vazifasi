@@ -27,11 +27,11 @@
 // Funksiyauchburchakningyuzinihisoblabqaytarsin.Uchbur
 // chakyuzinitopishformulasi:S=(asos*balandlik)/2
 
-const uchburchakYuzi = function (asos, balandlik) {
-  return (asos * balandlik) / 2;
-};
+// const uchburchakYuzi = function (asos, balandlik) {
+//   return (asos * balandlik) / 2;
+// };
 
-console.log(uchburchakYuzi(3, 6));
+// console.log(uchburchakYuzi(3, 6));
 
 //============================================================
 
@@ -102,8 +102,8 @@ console.log(uchburchakYuzi(3, 6));
 // inchisiniikkinchisigabo’lgandagiqoldiqniqaytaribberadigan
 // funksiyayasang.
 
-// const qoldiq = (x, y) => Math.floor(x % y);
-// console.log(qoldiq(3, 4));
+const qoldiq = (x, y) => x % y;
+console.log(qoldiq(1, 3));
 
 //===============================================================
 // 12.Turtburchakningbo’yivaeniberilsauningyuzinihisoblab
