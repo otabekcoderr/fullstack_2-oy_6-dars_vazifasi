@@ -1,16 +1,17 @@
 //vazifadan tashqari
-// let matn = "ronaldo";
-// let nums = "1234567890";
-// let bormi = true;
-// for (let i of matn) {
-//   let n = Number(matn[i]);
-//   if (nums.includes(matn) && n == isNaN) {
-//     bormi = true;
-//   } else {
-//     bormi = false;
-//   }
-// }
-// console.log(bormi);
+let matn = "1ronaldo";
+let nums = "1234567890";
+let bormi = true;
+for (let i of matn) {
+  let n = Number(matn[i]);
+  console.log(n);
+  if (matn.includes(nums)) {
+    bormi = true;
+  } else {
+    bormi = false;
+  }
+}
+console.log(bormi);
 
 //==========================================================
 
@@ -119,10 +120,10 @@
 // ushbu funksiya “Something” stringiga ” ” bo’sh joyva “a”
 // stringinibirlashtiribqaytarsin
 
-const stringQosh = function (matn) {
-  return "somethin" + " " + matn;
-};
-console.log(stringQosh("is wrong"));
+// const stringQosh = function (matn) {
+//   return "something" + " " + matn;
+// };
+// console.log(stringQosh("is wrong"));
 
 //===================================================================
 // 14.Quyidaginamunalargaqaraganholatdafunksiyayasang
