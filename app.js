@@ -102,8 +102,8 @@
 // inchisiniikkinchisigabo’lgandagiqoldiqniqaytaribberadigan
 // funksiyayasang.
 
-const qoldiq = (x, y) => x % y;
-console.log(qoldiq(1, 3));
+// const qoldiq = (x, y) => x % y;
+// console.log(qoldiq(1, 3));
 
 //===============================================================
 // 12.Turtburchakningbo’yivaeniberilsauningyuzinihisoblab
@@ -119,10 +119,10 @@ console.log(qoldiq(1, 3));
 // ushbu funksiya “Something” stringiga ” ” bo’sh joyva “a”
 // stringinibirlashtiribqaytarsin
 
-// const stringQosh = function (matn) {
-//   return "somethin " + matn;
-// };
-// console.log(stringQosh("is wrong"));
+const stringQosh = function (matn) {
+  return "somethin" + " " + matn;
+};
+console.log(stringQosh("is wrong"));
 
 //===================================================================
 // 14.Quyidaginamunalargaqaraganholatdafunksiyayasang
