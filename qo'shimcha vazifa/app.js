@@ -114,3 +114,51 @@
 // const palidrom = function(son,son_nusxa,sum){
 //     for(let i = )
 // }
+
+var isPalindrome = function (x) {
+  let x_copy = x;
+  console.log(x_copy[1]);
+
+  let sum = 0;
+  if (x_copy >= 1) {
+    for (let i = x_copy; i > 0; i = Math.floor(i / 10)) {
+      let oxirgi = i % 10;
+      oxirgi[1] === 0 ? false : (sum = sum * 10 + oxirgi);
+    }
+    return x_copy === sum;
+  } else if (x_copy < 0) {
+    return false;
+  } else {
+    return true;
+  }
+};
+
+// var isPalindrome = function (x) {
+//   let x_copy = x;
+//   let sum = 0;
+//   if (x_copy >= 1) {
+//     for (let i = x_copy; i > 0; i = Math.floor(i / 10)) {
+//       let oxirgi = i % 10;
+//       oxirgi[1] === 0 ? false : (sum = sum * 10 + oxirgi);
+//     }
+//     return x_copy === sum;
+//   } else if (x_copy < 0) {
+//     return false;
+//   } else {
+//     return true;
+//   }
+// };
+
+console.log(isPalindrome(1));
+
+// console.log(-9 < 9);
+
+// let son = 121;
+// let sum = 0;
+
+// for (let n = son; n > 0; n = Math.floor(n / 10)) {
+//   let oxirgi = n % 10;
+//   sum = sum * 10 + oxirgi;
+// }
+
+// console.log(son === sum ? "Palindrom" : "Palindrom emas");

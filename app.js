@@ -1,3 +1,4 @@
+//vazifadan tashqari
 // let matn = "ronaldo";
 // let nums = "1234567890";
 // let bormi = true;
@@ -26,11 +27,11 @@
 // Funksiyauchburchakningyuzinihisoblabqaytarsin.Uchbur
 // chakyuzinitopishformulasi:S=(asos*balandlik)/2
 
-// const uchburchakYuzi = function (asos, balandlik) {
-//   return (S = (asos * balandlik) / 2);
-// };
+const uchburchakYuzi = function (asos, balandlik) {
+  return (asos * balandlik) / 2;
+};
 
-// console.log(uchburchakYuzi(3, 6));
+console.log(uchburchakYuzi(3, 6));
 
 //============================================================
 
@@ -197,6 +198,5 @@
 //   return list;
 // };
 // console.log(forNum(6));
-
 
 //21
